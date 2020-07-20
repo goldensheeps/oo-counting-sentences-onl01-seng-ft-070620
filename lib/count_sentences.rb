@@ -18,3 +18,5 @@ class String
     self.split(/\.|\?|\!/).delete_if {|w| w.size < 2}.size
   end
 end
+
+/\.|\?|\!/
